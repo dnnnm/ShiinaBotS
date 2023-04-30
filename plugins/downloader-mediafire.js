@@ -14,6 +14,6 @@ let handler = async (m, { conn, args }) => {
 handler.help = handler.alias = ['mediafire']
 handler.tags = ['downloader']
 handler.command = /^(mediafire)$/i
-handler.level = 60
+handler.level = 6
 
 export default handler

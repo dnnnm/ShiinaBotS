@@ -17,5 +17,5 @@ handler.help = ['bank']
 handler.tags = ['rpg']
 handler.command = /^(bank)$/i
 
-handler.register = false
+handler.register = true
 export default handler

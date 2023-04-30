@@ -16,6 +16,6 @@ handler.help = ['zippyshare']
 handler.tags = ['downloader']
 handler.alias = ['zs', 'zippy', 'zippydl', 'zippyshare']
 handler.command = /^z(s|ippy(dl|share)?)$/i 
-handler.level = 60
+handler.level = 6
 
 export default handler

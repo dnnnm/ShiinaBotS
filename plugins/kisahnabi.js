@@ -21,7 +21,7 @@ ${kisah.description}`
 handler.help = ['kisahnabi <name>']
 handler.tags = ['islami']
 handler.command = /^kisahnabi$/i
-handler.register = false
+handler.register = true
 handler.limit = true
 
 export default handler

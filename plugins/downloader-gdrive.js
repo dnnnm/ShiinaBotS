@@ -15,7 +15,7 @@ let handler = async (m, { conn, args }) => {
 handler.command = /^(gdrive)$/i
 handler.disabled = false
 handler.limit = true
-handler.level = 60
+handler.level = 6
 
 export default handler
 

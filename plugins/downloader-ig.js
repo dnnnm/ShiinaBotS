@@ -11,6 +11,6 @@ handler.help = ['ig'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 
 handler.command = /^(ig(dl)?)$/i
-handler.level = 30
+handler.level = 3
 
 export default handler
