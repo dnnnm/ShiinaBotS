@@ -19,12 +19,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                 month: 'long',
                 year: 'numeric'
             })
-conn.reply(m.chat, '*Succes*', m)
-conn.reply(global.nomorown + '@s.whatsapp.net', `*🗓️ Database:* ${date}`, null)
-          conn.sendFile(global.nomorown + '@s.whatsapp.net', fs.readFileSync('./index.js_database.json'), 'index.js_database.json', '', 0, 0, { mimetype: 'application/json', quoted: fdoc})
+conn.reply(m.chat, `*🗓️ Database:* ${date}`, m)
+//conn.reply(global.nomorown + '@s.whatsapp.net', `*🗓️ Database:* ${date}`, null)
+          conn.sendFile(global.nomorown + '@s.whatsapp.net', fs.readFileSync('./database.json'), 'database.json', '', 0, 0, { mimetype: 'application/json', quoted: fdoc})
+//conn.reply(global.nomorown + '@s.whatsapp.net', `*🗓️ Database:* ${date}`, null)
+          conn.sendFile(global.nomorown + '@s.whatsapp.net', fs.readFileSync('./xhitori.data.json'), 'xhitori.data.json', '', 0, 0, { mimetype: 'application/json', quoted: fdoc})
  }
  
- handler.help = ['backup']
+handler.help = ['backup']
 handler.tags = ['owner']
 handler.command = /^(backup)$/i
 handler.rowner = true
