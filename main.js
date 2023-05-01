@@ -152,7 +152,7 @@ async function connectionUpdate(update) {
   }
   if (global.db.data == null) await loadDatabase()
   console.log(JSON.stringify(update, null, 4))
-  if (update.receivedPendingNotifications) conn.sendButton(global.nomorown + `@s.whatsapp.net`, `Successfully connected`, wm, [['MENU', '.menu']], null)//made by Gama Naufal 
+  if (update.receivedPendingNotifications) conn.sendButton(global.nomorown + `@s.whatsapp.net`, `Successfully connected`, wm, [['BACKUP', '.backup']], null)//made by Gama Naufal 
 }
 
 
