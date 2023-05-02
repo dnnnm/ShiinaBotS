@@ -5,7 +5,8 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
     let api = await (await axios.get(`https://sh.xznsenpai.xyz/api/igdl?url=`+args[0])).data
     let results = api.media[0] || api.media
     await m.reply('Sedang diproses...')
-    await conn.sendFile(m.chat, results, 'instagram.mp4', wm, m)
+  for (let e of api.media)
+    await conn.sendFile(m.chat, e, '', wm, m)
 }
 handler.help = ['instagram'].map(v => v + ' <url>')
 handler.tags = ['downloader']
