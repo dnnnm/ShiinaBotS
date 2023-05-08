@@ -51,6 +51,6 @@ handler.command =  /^(cekversi)$/i
 
 handler.register = true
 handler.premium = false
-handler.limit = false
+handler.limit = true
 
 export default handler
