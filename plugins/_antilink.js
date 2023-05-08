@@ -1,5 +1,5 @@
 const linkRegex = /chat.whatsapp.com\/(?:invite\/)?([0-9A-Za-z]{20,24})/i
-export async function before(m, { isAdmin, isBotAdmin }) {
+export async function before(m, {conn, isAdmin, isBotAdmin }) {
     if (m.isBaileys && m.fromMe)
         return !0
     if (!m.isGroup) return !1
@@ -12,10 +12,11 @@ export async function before(m, { isAdmin, isBotAdmin }) {
             const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
             if (m.text.includes(linkThisGroup)) return !0
         }
-        await conn.sendButton(m.chat, `*Group link detect!*${isBotAdmin ? '' : '\n\n_Bot not admin_  t_t'}`, author, ['off antilink', '/disable antilink'], m)
-        if (isBotAdmin && bot.restrict) {
-            await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
-        } else if (!bot.restrict) return m.reply('Owner disable auto kick!')
+        await conn.reply(m.chat, `*≡ Link detected*\nWe do not allow links from other groups. ${isBotAdmin ? '' : '\n\nNo soy admin así que no te puedo expulsar :"v'}`, null, { mentions: [m.sender] } )
+        if (isBotAdmin && chat.antiLink) {
+        	await conn.sendMessage(m.chat, { delete: m.key })
+            //await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
+        } else if (!chat.antiLink) return //m.reply('')
     }
     return !0
 }
