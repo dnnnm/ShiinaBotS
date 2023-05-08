@@ -15,6 +15,6 @@ let handler = async (m, { conn, text }) => {
 handler.help = ['katanime']
 handler.tags = ['anime']
 handler.command = /^(katanime|kataanime)$/i
-handler.limit = false
+handler.limit = true
 
 export default handler
