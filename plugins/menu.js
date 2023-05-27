@@ -49,8 +49,7 @@ const defaultMenu = {
 │ *Ⓟ* = Premium
 │ *Ⓛ* = Limit
 └───────⭓
-%readmore
-`.trimStart(),
+%readmore`.trimStart(),
   header: '┌──⭓ %category ⭓──',
   body: '│⎚ %cmd %isPremium %islimit',
   footer: '└───────⭓\n',
@@ -58,7 +57,6 @@ const defaultMenu = {
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, command}) => {
 let tags = {
-    'image': 'Image',
   'main': 'Main',
   'game': 'Game',
   'rpg': 'RPG Games',
@@ -68,10 +66,8 @@ let tags = {
   'quotes': 'Quotes',
   'fun': 'Fun',
   'anime': 'Anime',
-  'admin': 'Admin',
   'group': 'Group',
   'vote': 'Voting',
-  'absen': 'Absen',
   'premium': 'Premium',
   'anonymous': 'Anonymous Chat',
   'internet': 'Internet',
@@ -83,8 +79,6 @@ let tags = {
   'database': 'Database',
   'quran': 'Al Qur\'an',
   'owner': 'Owner',
-  'host': 'Host',
-  'advanced': 'Advanced',
   'info': 'Info',
   '': 'No Category',
 }
