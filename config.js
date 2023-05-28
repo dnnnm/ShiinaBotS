@@ -44,29 +44,13 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
       
     
 /*============== SOCIAL ==============*/
-
 // Wajib diisi ya kak!, kalo ga punya biarin aja, biar ada creditsnya :v
 global.sig = 'https://www.instagram.com/adam_daniam'
-
-
-
 global.snh = 'https://m.adamdani2.repl.co'
-
 /*============== PAYMENT ==============*/
-
-
-
-
-
-
-
 /*============== NOMOR ==============*/
-
 global.nomorown = '6285156057360'
-
 global.nameown = 'dnm'
-
-
 /*============== STAFF ==============*/
 global.owner = [
   ['6285156057360', 'dnm', true]
@@ -74,86 +58,38 @@ global.owner = [
 ] // Put your number here
 global.mods = [] // Want some help?
 global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
-
-
 /*============== API ==============*/
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
-
   xteam: 'https://api.xteam.xyz',
-
   lol: 'https://api.lolhuman.xyz',
-
-
-
-
-
-
-
-
-
-
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'NezukoTachibana281207',
-
   'https://api.lolhuman.xyz': 'a70fe5fb01ea65b6bb350009',
-
-
-
-
-
-
-
-
-
 }
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
-
 /*============== WATERMARK ==============*/
 global.wm = '「 S h i i n a B o t シ」' //Main Watermark
-
 global.wm3 = '❖ ShiinaBot'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = '✨┊ ShiinaBot '
 global.author = global.wm
-
-
 /*============== LOGO ==============*/
-
-
-
-
-
-
-
 /*============== TEXT ==============*/
 global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
-
-
 /*=========== TYPE DOCUMENT ===========*/
-
 global.ddocx = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-
-
-
-
-
-
 /*=========== FAKE SIZE ===========*/
-
-
-
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
 global.dmenut = '❏═┅═━–〈' //top
 global.dmenub = '┊𔔮' //body
 global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
-
 // COMMAND MENU
 global.dashmenu = '┅━━━━━═┅═❏ *DASHBOARD* ❏═┅═━━━━━┅'
 global.cmenut = '❏––––––『'                       //top
@@ -161,21 +97,14 @@ global.cmenuh = '』––––––'                        //header
 global.cmenub = '┊❀ '                            //body
 global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
-
-
 global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
 global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
 global.lolm = 'Ⓛ' //LOGO FREE ON MENU.JS
-
-
-
 /*============== STICKER WM ==============*/
 global.stickpack = 'ShiinaBot'
 global.stickauth = `シ`
-
 global.multiplier = 38 // The higher, The harder levelup
-
 /*============== EMOJI ==============*/
 global.rpg = {
   emoticon(string) {
