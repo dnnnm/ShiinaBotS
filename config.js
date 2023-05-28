@@ -80,34 +80,34 @@ global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user
 global.APIs = { // API Prefix
   // name: 'https://website'
   nrtm: 'https://nurutomo.herokuapp.com',
-  rey: 'https://server-api-rey.herokuapp.com',
+
   xteam: 'https://api.xteam.xyz',
-  zahir: 'https://zahirr-web.herokuapp.com',
+
   lol: 'https://api.lolhuman.xyz',
-  dhnjing: 'https://dhnjing.xyz',
-  neoxr: 'https://neoxr-api.herokuapp.com',
-  zeks: 'https://api.zeks.me',
-  pencarikode: 'https://pencarikode.xyz',
-  ana: 'https://anabotofc.herokuapp.com/',
-  amel: 'https://melcanz.com',
-  hardianto: 'https://hardianto.xyz',
-  xgr4m: 'https://api.xgr4mteam.repl.co',
-  adiisus: 'https://adiixyzapi.herokuapp.com',
-  males: 'https://malesin.xyz'
+
+
+
+
+
+
+
+
+
+
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
   'https://api.xteam.xyz': 'NezukoTachibana281207',
-  'https://anabotofc.herokuapp.com/': 'AnaBot',
+
   'https://api.lolhuman.xyz': 'a70fe5fb01ea65b6bb350009',
-  'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.me': 'apivinz',
-  'https://pencarikode.xyz': 'pais',
-  'https://melcanz.com': 'melcantik',
-  'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://server-api-rey.herokuapp.com': 'apirey',
-  'https://api.xgr4mteam.repl.co': 'xgram',
-  'https://hardianto.xyz': 'hardianto',
+
+
+
+
+
+
+
+
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
 }
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
