@@ -108,7 +108,7 @@ global.APIKeys = { // APIKey Here
 
 
 
-  'https://leyscoders-api.herokuapp.com': 'dappakntlll'
+
 }
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
