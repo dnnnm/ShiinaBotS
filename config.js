@@ -47,23 +47,23 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // Wajib diisi ya kak!, kalo ga punya biarin aja, biar ada creditsnya :v
 global.sig = 'https://www.instagram.com/adam_daniam'
-global.sgh = 'https://github.com/dnnnm'
-global.sgc = 'https://chat.whatsapp.com/BYgDRubCSRt7uWylK8J6cQ'
-global.sdc = " "
+
+
+
 global.snh = 'https://m.adamdani2.repl.co'
 
 /*============== PAYMENT ==============*/
-global.pdana = '085156057360'
-global.povo = '085156057360'
-global.pgopay = '085156057360'
-global.ppulsa = '085156057360'
-global.ppulsa2 = '_'
-global.psaweria = 'https://saweria.co/dnnm'
+
+
+
+
+
+
 
 /*============== NOMOR ==============*/
-global.nomorbot = '628388906981'
+
 global.nomorown = '6285156057360'
-global.namebot = 'ShiinaBot'
+
 global.nameown = 'dnm'
 
 
@@ -75,7 +75,7 @@ global.owner = [
 global.mods = [] // Want some help?
 global.prems = [] // Premium user bukan disini nambahinnya, ketik .addprem @user 10
 
-global.xkey = 'APIKEYMU'
+
 /*============== API ==============*/
 global.APIs = { // API Prefix
   // name: 'https://website'
@@ -114,7 +114,7 @@ global.APIKeys = { // APIKey Here
 
 /*============== WATERMARK ==============*/
 global.wm = '「 S h i i n a B o t シ」' //Main Watermark
-global.wm2 = 'ShiinaBot'
+
 global.wm3 = '❖ ShiinaBot'
 global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
@@ -123,29 +123,29 @@ global.author = global.wm
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/58e1ec4721a1aee8e8340.jpg' //Main Thumbnail
-global.thumb2 = 'https://telegra.ph/file/5d346a88d037c1bcf14d9.jpg'
-global.thumbbc = 'https://telegra.ph/file/de25feacb6dc106b3cd78.jpg' //For broadcast
-global.giflogo = 'https://telegra.ph/file/692ff6159a8ccb4540a99.jpg'
 
-global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
+
+
+
+
+
 
 /*============== TEXT ==============*/
 global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
-global.eror = '```404 error```'
+
 
 /*=========== TYPE DOCUMENT ===========*/
-global.dpptx = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
-global.ddocx = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
-global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
-global.dpdf = 'application/pdf'
-global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/420cd933e07c6234eb105.jpg'
+global.ddocx = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
+
+
+
+
+
 
 /*=========== FAKE SIZE ===========*/
-global.fsizedoc = '99999999999999' // default 10TB
-global.fpagedoc = '999'
+
+
 
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
@@ -161,14 +161,14 @@ global.cmenuh = '』––––––'                        //header
 global.cmenub = '┊❀ '                            //body
 global.cmenuf = '┗━═┅═━––––––๑\n'                //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     ' //after
-global.pmenus = '┊'                              //pembatas menu selector
+
 
 global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
 global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
 global.lolm = 'Ⓛ' //LOGO FREE ON MENU.JS
-global.htjava = '𔔮'   //hiasan Doang :v
-global.hsquere = ['⛶','❏','⫹⫺']
+
+
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'ShiinaBot'
