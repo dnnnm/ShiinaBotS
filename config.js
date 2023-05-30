@@ -47,6 +47,7 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 // Wajib diisi ya kak!, kalo ga punya biarin aja, biar ada creditsnya :v
 global.sig = 'https://www.instagram.com/adam_daniam'
 global.snh = 'https://m.adamdani2.repl.co'
+global.sgc = 'https://chat.whatsapp.com/BYgDRubCSRt7uWylK8J6cQ'
 /*============== PAYMENT ==============*/
 /*============== NOMOR ==============*/
 global.nomorown = '6285156057360'
@@ -70,6 +71,7 @@ global.APIKeys = { // APIKey Here
   'https://api.xteam.xyz': 'NezukoTachibana281207',
   'https://api.lolhuman.xyz': 'a70fe5fb01ea65b6bb350009',
 }
+global.OpenAIKey = ''
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 /*============== WATERMARK ==============*/
 global.wm = '「 S h i i n a B o t シ」' //Main Watermark
@@ -78,14 +80,19 @@ global.botdate = `⫹⫺ 𝗗𝗮𝘁𝗲: ${week} ${date}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = '✨┊ ShiinaBot '
 global.author = global.wm
+global.namebot = global.wm
 /*============== LOGO ==============*/
+global.thumbdoc = 'https://telegra.ph/file/a5550cbd9f6c764250fb1.jpg'
 /*============== TEXT ==============*/
 global.wait = '```「▰▰▰▱▱▱▱▱▱▱」Loading...```'
 /*=========== TYPE DOCUMENT ===========*/
 global.ddocx = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 /*=========== FAKE SIZE ===========*/
+global.fsizedoc = '99999999999999'
+global.fpagedoc = '999'
 /*=========== HIASAN ===========*/
 // DEFAULT MENU
+global.pmenus = '❏'
 global.dmenut = '❏═┅═━–〈' //top
 global.dmenub = '┊𔔮' //body
 global.dmenub2 = '┊' //body for info cmd on Default menu
