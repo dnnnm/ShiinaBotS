@@ -1,9 +1,9 @@
 import fetch from 'node-fetch'
 let handler = async (m, {text, args}) => {
   if (!args[0]) throw `Use example .simi halo`
-  let api = await fetch(`https://simsimi.info/api/?text=${text}&lc=id`)
+  let api = await fetch(`https://xznsenpai.xyz/api/simi?&text=${text}`)
   let res = await api.json()
-  m.reply(res.success)
+  m.reply(res.result)
 }
 handler.command = ['simi']
 handler.tags = ['fun']
