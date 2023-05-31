@@ -108,6 +108,7 @@ global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
 global.lopr = 'Ⓟ' //LOGO PREMIUM ON MENU.JS
 global.lolm = 'Ⓛ' //LOGO FREE ON MENU.JS
+global.htjava = '𔔮'
 /*============== STICKER WM ==============*/
 global.stickpack = 'ShiinaBot'
 global.stickauth = `シ`
