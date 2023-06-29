@@ -10,6 +10,6 @@ let handler = async (m, { conn }) => {
 
 handler.help = ['readviewonce']
 handler.tags = ['tools']
-handler.command = /^readviewonce/i
+handler.command = /^r/i
 
 export default handler
